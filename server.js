@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 
 const PORT = 80;
-const redirectTo = 'https://www.google.com';
+const redirectTo = 'https://web.lg-gaming.xyz';
 
 app.use((req, res) => {
   res.redirect(redirectTo);
