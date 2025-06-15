@@ -1,0 +1,13 @@
+https://lightsail.aws.amazon.com/
+
+1. sudo apt update && sudo apt upgrade -y
+
+2. sudo apt install -y nodejs npm git
+
+3. git clone https://github.com/spinner99-bit/smsIP-demo.git
+
+4. cd smsIP-demo
+
+5. npm install
+
+6. node server.js
