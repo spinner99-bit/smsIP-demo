@@ -9,5 +9,5 @@ app.use((req, res) => {
 });
 
 app.listen(PORT, '0.0.0.0', () => {
-  console.log(`Server is running on port ${PORT} and redirecting to ${redirectTo}`);
+  console.log(`Server running on 0.0.0.0:${PORT}, redirecting to ${redirectTo}`);
 });
