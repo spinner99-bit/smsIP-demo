@@ -11,3 +11,16 @@ https://lightsail.aws.amazon.com/
 5. npm install
 
 6. node server.js
+
+7. -- Close console --
+
+8. sudo npm install -g pm2
+
+9. pm2 start server.js
+
+10. pm2 startup
+
+11. pm2 save
+
+
+Check pm2 list : pm2 list
